@@ -1,0 +1,65 @@
+body{
+    background-color:skyblue;
+    margin-left: 50px;
+    margin-top: 0px
+}
+
+h1{
+    color: rgb(85, 80, 72);
+    font-size: 30px;
+    text-align: center;
+}
+
+p{
+    color: peru;
+    font-weight: bold;
+}
+
+b{
+    color: green;
+}
+
+.P1{
+    color: saddlebrown;
+}
+
+.P2{
+    color: darkblue;
+}
+
+.P3{
+    color: palevioletred;
+}
+
+#ID_COLOR{
+    color: purple;
+    font-size: 20px;
+}
+
+img{
+    weight: 2000px;
+    height: 100px;
+}
+
+table,td,th{
+    border-color: crimson;
+    border-width: 2px;
+    border-style: solid;
+    border-collapse: collapse /* eliminar la doble línea */
+}
+
+td{
+    color: indigo;
+}
+
+th{
+    background-color: dimgrey;
+}
+
+#id10{
+    color: red;
+}
+/* comentario */
+/* mostrar todas las opciones con Ctrl + Espacio*/
+
+
