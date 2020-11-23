@@ -27,47 +27,58 @@ th {
     background-color: grey;
 }
 
-.hora{
-    background-color: lightslategrey;
-}
-
 h1{
     text-align: center;
 }
 
 .M04{
     font-weight: bold;
-    background-color: sienna;
     font-family: Georgia;
     text-decoration: underline;
 }
 
+.C04{
+    background-color: sienna;
+}
+
 .M06{
     font-weight: bold;
-    background-color: red;
     font-family: Verdana;
     text-decoration: underline;
 }
 
+.C06{
+    background-color: rgb(255, 35, 35);
+}
+
 .M07{
     font-weight: bold;
-    background-color: seagreen;
     font-family: sans-serif;
     text-decoration: underline;
 }
 
+.C07{
+    background-color: seagreen;
+}
+
 .M08{
-    background-color: rgb(54, 72, 177);
     font-weight: bold;
     font-family: Times New Roman;
     text-decoration: underline;
 }
 
+.C08{
+    background-color:  rgb(54, 72, 177);
+}
+
 #M10{
     font-weight: bold;
-    background-color: purple;
     font-family: Haettenschweiler;
     text-decoration: underline;
+}
+
+.C10{
+    background-color: purple;
 }
 
 #Pati{
@@ -75,11 +86,22 @@ h1{
     text-align: center;
 }
 
+.chora{
+    background-color: lightslategray;
+}
+
+.cpati{
+    background-color: steelblue;
+}
+
 #Tut{
     font-weight: bold;
-    background-color:  rgb(197, 174, 43);
     font-family: Arial Narrow Bold;
     text-decoration: underline;
+}
+
+.ctut{
+    background-color: rgb(197, 174, 43);
 }
 
 img{
