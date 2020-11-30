@@ -1,0 +1,43 @@
+h1{
+    color: green;
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+}
+
+legend{
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+#info_basica{
+    background-color:lightsalmon;
+}
+
+#nacionalidad{
+    background-color: lightgreen
+}
+
+#estudios{
+    background-color: lightpink
+}
+
+#idiomas{
+    background-color: lightblue
+}
+
+#botones{
+    background-color: lightgray
+}
+
+#l_info{
+    color: blue;
+}
+
+#l_nacionalidad{
+    color: orange;
+}
+
+#l_idiomas{
+    color: red;
+}

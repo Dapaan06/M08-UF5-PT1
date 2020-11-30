@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+            <title>Formulario</title>
+            <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+            <link rel="stylesheet" href="../Css/formulario2.css"/>
+        </head>
+    <body>
+        <h1>Curriculum:</h1>
+        <form action="form.html" method="GET" enctype="multipart/form-data">
+            <fieldset id="info_basica">
+                <legend id="l_info"><em>Información básica</em></legend>
+                <label>Introduce tu nombre:</label>
+                <input type="text" value="" placeholder="Introduce tu nombre"/>
+                <br/>
+                <br/>
+                <label>Introduce tu altura (en centímetros):</label>
+                <input type="number" value="160"/>
+                <br/>
+                <br/>
+                <label for="id_email">Introduce tu dirreción de correo:</label>
+                <input type="email" id="id_email" name="n_email" value="tudireccion@correo.com">
+                <br/>
+                <br/>
+                <label for="id_date">Introduce tu fecha de nacimiento:</label>
+                <input type="date" id="id_date" name="n_date" value=""/> 
+            </fieldset>
+            <fieldset id="nacionalidad">
+                <legend id="l_nacionalidad"><em>Nacionalidad</em></legend>
+                <label>Selecciona tu caso:</label>
+                <br/>
+                <br/>
+                <input type="radio" id="id_radio1" name="nacionalidad" value="ESP"/> Español/a
+                <input type="radio" id="id_radio2" name="nacionalidad" value="UE"/> Comunitario/a (UE)
+                <input type="radio" id="id_radio3" name="nacionalidad" value="NO"/> No comunitario/a
+            </fieldset>
+            <fieldset id="estudios">
+                <legend><em>Estudios</em></legend>
+                <label for="id_multiselect">Selecciona los estudios que que ha finalizado:</label>
+                <br/>
+                <br/>
+                <select multiple id="id_multiselect" name="n_multiselect">
+                    <option value="default">Selecciona:</option>
+                    <option value="ESO">ESO</option>
+                    <option value="Bach">Bachillerato</option>
+                    <option value="GM">Grado Medio</option>
+                    <option value="GS">Grado Superior</option>
+                    <option value="Uni">Universidad</option>
+                </select>
+                <br/>
+                <br/>
+                <label>Introduce la especialidad:</label>
+                <br/>
+                <br/>
+                <label>Bachillerato:</label>
+                    <input type="text">
+                <br/>
+                <br/>
+                <label>Grado Medio:</label>
+                    <input type="text">
+                <br/>
+                <br/>
+                <label>Grado Superior:</label>
+                    <input type="text">
+                <br/>
+                <br/>
+                <label>Universidad:</label>
+                    <input type="text">
+            </fieldset>
+            <fieldset id="idiomas">
+                <legend id="l_idiomas"><em>Idiomas</em></legend>
+                <label>Selecciona los idiomas que dominas:</label>
+                <br/>
+                <br/>
+                <input type="checkbox" id="id_checkbox1" name="idioma" value="cat"/> Catalán
+                <input type="checkbox" id="id_checkbox2" name="idioma" value="cast"/> Castellano
+                <input type="checkbox" id="id_checkbox3" name="idioma" value="eng"/> Inglés
+                <input type="checkbox" id="id_checkbox4" name="idioma" value="otro"/> Otro/s:
+                <input type="text" value="" placeholder="Idioma/s extra/s (opcional)"/>
+            </fieldset>
+            <fieldset id=botones>
+                <legend>Botones</legend>
+                <input type="submit" id="id_submit" name="n_submit" value="Enviar"/>
+                <input type="reset" id="id_reset" name="n_reset" value="Cancelar"/>
+            </fieldset>
+        </form>
+            <p><img src="../Imatges/Comprobación_formulario2.PNG" alt="Comprobación formulario"/></p>
+    </body>
+</html>

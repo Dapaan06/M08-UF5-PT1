@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+            <title>Títol de la pestanya</title>
+            <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+            <link rel="stylesheet" href="../Css/formulario.css"/>
+        </head>
+    <body>
+        <h1>Contacta con nosotros</h1>
+        <form action="form.html" method="GET" enctype="multipart/form-data">
+            <fieldset>
+                <label>Escribe tu nombre</label>
+                <input type="text" value="" placeholder="Escribe aquí tu nombre"/>
+                <br/>
+                <br/>
+                <label>Indica tu edad:</label>
+                <input type="number" value="18"/>
+                <br/>
+                <label for="id_email">Pon tu email:</label>
+                <input  type="email" id="id_email" name="n_email" value="direccion@gmail.com"/>
+            </fieldset>
+            <fieldset>
+                <label>¿Qué deporte prefieres?</label>
+                <input type="radio" id="id_radio1" name="deporte" value="a" /> Voleybol
+                <input type="radio" id="id_radio2" name="deporte" value="b" /> Boxeo
+                <input type="radio" id="id_radio3" name="deporte" value="c" /> Natación
+                <input type="radio" id="id_radio4" name="deporte" value="d" /> Atletismo
+            </fieldset>
+            <fieldset>
+                <label>¿Dónde quisieras viajar?</label>
+                <input type="checkbox" id="id_checkbox1" name="pais" value="a" /> España
+                <input type="checkbox" id="id_checkbox2" name="pais" value="b" /> Argentina
+                <input type="checkbox" id="id_checkbox3" name="pais" value="c" /> Rusia
+                <input type="checkbox" id="id_checkbox4" name="pais" value="d" /> Marruecos
+            </fieldset>
+            <fieldset>
+                <label for="id_date">¿Cuándo naciste?</label>
+                <input type="date" id="id_date" name="n_date" value="2020-03-06"/>
+            </fieldset>
+            <fieldset>
+                <label for="id_select">Elige una opción:</label>
+                <select id="id_select" name="n_select">
+                    <option value="default">Elige tu juego favorito:</option>
+                    <option value="a">Minecraft</option>
+                    <option value="b">Roblox</option>
+                    <option value="c">Among us</option>
+                    <option value="d">Rocket League</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <label for="id_multiselect">Selecciona varios juegos:</label>
+                <select multiple id="id_multiselect" name="n_multiselect">
+                    <option value="default">Elige tu juego favorito:</option>
+                    <option value="a">Minecraft</option>
+                    <option value="b">Roblox</option>
+                    <option value="c">Among us</option>
+                    <option value="d">Rocket League</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <label for="id_tarea">Escribe tu tarea</label>
+                <textarea id="id_tarea" name="n_tarea">Tarea</textarea>
+
+                <label for="id_file">Añade un archivo</label>
+                <input type="file" id="id_file" name="n_file"/>
+            </fieldset>
+            <fieldset>
+                <legend>Botones:</legend>
+
+                <input type="submit" id="id_submit" name="n_submit" value="ENVIAR"/>
+                <input type="reset" id="id_reset" name="n_reset" value="VACIAR"/>
+            </fieldset>
+        </form>
+            <p><img src="../Imatges/Comprobación_formulario_prueba.JPG" alt="Comprobación formulario"/></p>
+    </body>
+</html>
