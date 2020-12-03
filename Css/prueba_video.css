@@ -1,0 +1,45 @@
+@font-face{
+    font-family: 'anton';
+    src: url(../Fonts/Anton-Regular.ttf);
+    font-family: majormonodisplay;
+    src: url(../Fonts/MajorMonoDisplay-Regular.ttf);
+}
+
+video{
+    width: 600px;
+    height: 400px;
+}
+
+iframe{
+    width: 560px;
+    height: 315px;
+}
+
+h2{
+    font-family: 'Major Mono Display', monospace;
+}
+
+h1{
+    font-family: 'anton';
+}
+
+/* link sin visitar*/
+a:link{
+    color: palevioletred;
+}
+
+/* link visitado*/
+a:visited{
+    color: red;
+}
+
+/* ratón encima del link*/
+h2:hover{
+    color: blue;
+    background-color: cornsilk;
+}
+
+/* link seleccionado*/
+a:active{
+    color: yellowgreen;
+}
