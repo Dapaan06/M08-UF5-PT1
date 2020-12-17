@@ -1,0 +1,163 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+
+#cabecera{
+    background: gray;
+    width: 100%;
+    height: 15%;
+    position: absolute;
+}
+
+#lateral_izq{
+    background: rgb(196, 189, 189);
+    width: 20%;
+    height: 75%;
+    position: absolute;
+    top: 15%;
+}
+
+#parte_central{
+    background: rgb(73, 70, 70);
+    width: 65%;
+    height: 75%;
+    position: absolute;
+    left: 20%;
+    top: 15%;
+}
+
+#lateral_dch{
+    background: rgb(196, 182, 182);
+    width: 15%;
+    height: 75%;
+    position: absolute;
+    left: 85%;
+    top: 15%;
+}
+
+#pie{
+    background: rgb(63, 62, 62);
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    top: 90%;
+}
+
+#logo{
+    width: 100px;
+    height: auto;
+    position: absolute;
+    left: 25px;
+}
+
+h1{
+    font-family: 'Bungee', cursive;
+    color: white;
+    position: absolute;
+    left: 150px;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.centro{
+    font-family: 'Orbitron', sans-serif;
+    padding: 30px;
+}
+
+#banner{
+    position: absolute;
+    width: 75%;
+    height: 80%;
+    padding: 50px;
+}
+
+#pie{
+    color: rgb(100, 25, 25);
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bolder;
+}
+
+#ex1,#ex2,#ex3,#ex4,#ex5,#ex6,#ex7,#ex8,#ex9,#pt1,#pt2,#pt3,#pt4,#pt5_1,#pt5_2,#pt5_3,#pt6,#pt6_1{
+    border: solid rgb(161, 130, 130) 2px;
+    width: 85%;
+    padding: 4px;
+    background: black;
+    margin: 5px;
+    font-family: 'Teko', sans-serif;
+    font-size: 85%;
+    text-align: center;
+}
+
+#ex1:hover{
+    background: rgb(27, 27, 27);
+}
+
+#ex2:hover{
+    background: rgb(27, 27, 27);
+}
+
+#ex3:hover{
+    background: rgb(27, 27, 27);
+}
+
+#ex4:hover{
+    background: rgb(27, 27, 27);
+}
+
+#ex5:hover{
+    background: rgb(27, 27, 27);
+}
+
+#ex6:hover{
+    background: rgb(27, 27, 27);
+}
+
+#ex7:hover{
+    background: rgb(27, 27, 27);
+}
+
+#ex8:hover{
+    background: rgb(27, 27, 27);
+}
+
+#ex9:hover{
+    background: rgb(27, 27, 27);
+}
+
+#pt1:hover{
+    background: rgb(27, 27, 27);
+}
+
+#pt2:hover{
+    background: rgb(27, 27, 27);
+}
+
+#pt3:hover{
+    background: rgb(27, 27, 27);
+}
+
+#pt4:hover{
+    background: rgb(27, 27, 27);
+}
+
+#pt5_1:hover{
+    background: rgb(27, 27, 27);
+}
+
+#pt5_2:hover{
+    background: rgb(27, 27, 27);
+}
+
+#pt5_3:hover{
+    background: rgb(27, 27, 27);
+}
+
+#pt6:hover{
+    background: rgb(27, 27, 27);
+}
+
+a:visited{
+    color: rgba(236, 236, 236, 0.753);
+}
