@@ -79,7 +79,7 @@ h1{
     font-weight: bolder;
 }
 
-#ex1,#ex2,#ex3,#ex4,#ex5,#ex6,#ex7,#ex8,#ex9,#pt1,#pt2,#pt3,#pt4,#pt5_1,#pt5_2,#pt5_3,#pt6,#pt6_1{
+#ex1,#ex2,#ex3,#ex4,#ex5,#ex6,#ex7,#ex8,#ex9,#pt1,#pt2,#pt3,#pt4,#pt5_1,#pt5_2,#pt5_3,#pt6,#pt6_1,#pt8{
     border: solid rgb(161, 130, 130) 2px;
     width: 85%;
     padding: 4px;
@@ -155,6 +155,10 @@ h1{
 }
 
 #pt6:hover{
+    background: rgb(27, 27, 27);
+}
+
+#pt8:hover{
     background: rgb(27, 27, 27);
 }
 
