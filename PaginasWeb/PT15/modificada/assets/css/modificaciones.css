@@ -1,0 +1,31 @@
+#header header h1 {
+    font-weight: 800;
+    font-size: 1.5em;
+    letter-spacing: 10px;
+    color: seagreen;
+}
+
+#footer .copyright {
+    margin: 0 0 0 0;
+    font-size: 0.8em;
+}
+
+.class1{
+    color: rebeccapurple;
+    font-size: 1.5em;
+}
+
+.class2{
+    color: orchid;
+    font-family: cursive;
+}
+
+#div{
+    position: fixed;
+    float: right;
+    transform: rotate(45%);
+    color: rgb(19, 16, 12);
+    background-color: sandybrown;
+    padding: 10px;
+    margin-left: 80%;
+}
