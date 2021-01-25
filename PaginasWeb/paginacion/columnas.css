@@ -1,0 +1,37 @@
+.verde
+{
+    background-color: rgb(52, 189, 52);
+    height: 50px;
+    border: black 2px solid;
+}
+
+.rojo
+{
+    background-color: red;
+    height: auto;
+    border: black 2px solid;
+}
+
+.rosa{
+    background-color: palevioletred;
+    height: 50px;
+    border: black 2px solid;
+}
+
+.naranja{
+    background-color: peru;
+    border: black 2px solid;
+    height: 200px;
+}
+
+.azul{
+    background-color: blue;
+    color: white;
+    border: black 2px solid;
+    height: 100px;
+}
+
+.padding{
+    padding: 0px;
+    margin: 0px;
+}

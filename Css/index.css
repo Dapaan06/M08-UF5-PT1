@@ -58,6 +58,7 @@ h1{
     left: 150px;
     font-size: 40px;
     text-decoration: underline;
+    margin-top: 30px
 }
 
 .centro{
@@ -180,4 +181,9 @@ a:visited{
 
 li{
     list-style-type: none;
+}
+
+.dropdown-item{
+    background-color: rgb(167, 158, 158);
+    color: black;
 }
